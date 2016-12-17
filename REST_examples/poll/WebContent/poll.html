@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ajax olling example</title>
+    <script type = "text/javascript" 
+	    src  = "http://code.jquery.com/jquery-latest.min.js">
+    </script>
+    <script type = "text/javascript">
+    var url = 'http://localhost:8080/jaxrs2/resourcesP/json';
+    var urlForecast = 'http://api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID=1111111111';
+    var urlCross = 'http://wsf.cdyne.com/weatherws/weather.asmx/GetCityWeatherByZIP?ZIP=60601';
+
+      function displayPreds(preds) {
+         $('#container').empty(); // clear the old list, if any
+         $.each(preds, function(ind, val) { 
+              $('#container').append('<li>' + preds[ind].who + ': ' + 
+	                                      preds[ind].what + '</li>'); } );
+      }
+      
+      function displayForecast(forecast) {
+          $('#container').empty(); // clear the old list, if any
+          $.each(forecast, function(ind, val) { 
+               $('#container').append('<li>' + forecast[ind].cod + ': ' + 
+ 	                                      forecast[ind].message + '</li>'); } );
+       }      
+
+      function fetch() {
+          $.ajax({
+                   url:         urlForecast,
+                   method:      'GET',
+                   dataType:    'jsonp',
+                   contentType: "application/json; charset=utf-8",
+                   cache:       false,
+                   success:     function(res) { displayForecast(res.forecast); },
+                   error:       function(res) { console.log(res); },
+                   complete:    function () {
+                                   setTimeout(function() { fetch() }, 5000)}});
+      }
+
+      $(document).ready(fetch); // invoked after DOM is built and loaded
+    </script>
+  </head>
+  <body>
+    <ul id = 'container'></ul>
+  </body>
+</html>
+

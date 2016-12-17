@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v7.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v7.0 Server at localhost" name="Tomcat v7.0 Server at localhost" runtime-id="Apache Tomcat v7.0" server-type="org.eclipse.jst.server.tomcat.70" server-type-id="org.eclipse.jst.server.tomcat.70" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="20">
+  <list key="modules" value0="jaxws::org.eclipse.jst.jee.server:jaxws::jst.web::3.0" value1="jaxrs1::org.eclipse.jst.jee.server:jaxrs1::jst.web::3.0" value2="predictions2::org.eclipse.jst.jee.server:predictions2::jst.web::3.0" value3="jaxrs2::org.eclipse.jst.jee.server:jaxrs2::jst.web::3.0" value4="restlet::org.eclipse.jst.jee.server:restlet::jst.web::3.0" value5="poll::org.eclipse.jst.jee.server:poll::jst.web::3.0"/>
+</server>

@@ -1,0 +1,11 @@
+INDEX VERSION 1.3+D:\DatalexAcc\2016_DLX_WebServ\SOAP_examples\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3739232203.index
+1089839690.index
+3044439752.index
+347238456.index
+1010768736.index
+1880313864.index
+2809128974.index
+3125045556.index
+3481527383.index
+3681560769.index

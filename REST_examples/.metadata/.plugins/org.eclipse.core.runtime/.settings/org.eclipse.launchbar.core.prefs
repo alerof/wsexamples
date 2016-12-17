@@ -1,0 +1,11 @@
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:jaxws (1),org.eclipse.launchbar.core.descriptorType.default\:jaxws (2),org.eclipse.launchbar.core.descriptorType.default\:jaxws (3),org.eclipse.launchbar.core.descriptorType.default\:jaxws (4),org.eclipse.launchbar.core.descriptorType.default\:JerseyClient (1),org.eclipse.launchbar.core.descriptorType.default\:JerseyClient,org.eclipse.launchbar.core.descriptorType.default\:Tomcat v7.0 Server at localhost,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:poll,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:jaxrs1,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:jaxrs2,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:jaxws,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:restlet,org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:predictions2
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Tomcat\ v7.0\ Server\ at\ localhost/activeLaunchTarget=org.eclipse.remote.LocalServices\:Local
+org.eclipse.launchbar.core.descriptorType.default\:jaxws\ (1)/activeLaunchTarget=org.eclipse.remote.LocalServices\:Local
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:jaxrs1/activeLaunchMode=run
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:jaxrs1/activeLaunchTarget=org.jboss.tools.wtp.server.launchbar.connection\:jboss-5.1.0.GA
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:jaxrs2/activeLaunchTarget=org.jboss.tools.wtp.server.launchbar.connection\:jboss-5.1.0.GA
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:jaxws/activeLaunchTarget=org.jboss.tools.wtp.server.launchbar.connection\:Tomcat v7.0 Server at localhost (2)
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:poll/activeLaunchTarget=org.jboss.tools.wtp.server.launchbar.connection\:Tomcat v7.0 Server at localhost (2)
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:predictions2/activeLaunchTarget=org.jboss.tools.wtp.server.launchbar.connection\:Tomcat v7.0 Server at localhost (2)
+org.jboss.tools.wtp.server.launchbar.ModuleDescriptorType\:restlet/activeLaunchTarget=org.jboss.tools.wtp.server.launchbar.connection\:Tomcat v7.0 Server at localhost (2)

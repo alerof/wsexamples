@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sun.xml.internal.ws.api.model.soap.SOAPBinding"/>
+<fullyQualifiedTypeName name="com.sun.xml.ws.api.model.soap.SOAPBinding"/>
+<fullyQualifiedTypeName name="javax.xml.soap.SOAPBody"/>
+<fullyQualifiedTypeName name="javax.xml.ws.soap.SOAPBinding"/>
+</qualifiedTypeNameHistroy>

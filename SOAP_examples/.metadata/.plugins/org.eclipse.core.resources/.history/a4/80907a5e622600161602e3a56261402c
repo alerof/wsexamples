@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handler-chains xmlns="http://java.sun.com/xml/ns/javaee">
+  <handler-chain>
+    <handler>
+      <handler-name>predictions.ServiceHashHandler</handler-name>
+      <handler-class>predictions.ServiceHashHandler</handler-class>
+    </handler>
+    <handler>
+      <handler-name>predictions.IdHandler</handler-name>
+      <handler-class>predictions.IdHandler</handler-class>
+    </handler>
+  </handler-chain>
+</handler-chains>

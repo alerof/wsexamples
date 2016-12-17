@@ -1,0 +1,7 @@
+127.0.0.1 - - [31/May/2016:10:13:21 +0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [31/May/2016:10:13:21 +0300] "GET /randomTcat/WEB-INF/classes/rand/RandService.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [31/May/2016:10:15:07 +0300] "GET /randomTcat/ HTTP/1.1" 200 693
+0:0:0:0:0:0:0:1 - - [31/May/2016:10:15:59 +0300] "GET /randomTcat?wsdl HTTP/1.1" 200 2390
+127.0.0.1 - - [31/May/2016:10:29:05 +0300] "GET /randomTcat/rand?wsdl HTTP/1.1" 200 2390
+127.0.0.1 - - [31/May/2016:10:29:06 +0300] "POST /randomTcat HTTP/1.1" 200 239
+127.0.0.1 - - [31/May/2016:10:29:06 +0300] "POST /randomTcat HTTP/1.1" 200 321
